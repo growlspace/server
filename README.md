@@ -9,10 +9,10 @@ nick's required APIs:
 
 expectations:
 * POST login with username with credentials (in body), receive auth token
-* GET feed, receive list of item ids
-* GET item with id, receive content
-* POST item without id, create content
-* GET user with username, receive user profile content
+* GET feed, receive list of item ids [requires auth]
+* GET item with id, receive content [requires auth]
+* POST item without id, create content [requires auth]
+* GET user with username, receive user profile content [requires auth]
 * POST user, create user
 
 all in JSON
